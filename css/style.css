@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'AvenirLTPro-Black';
+    src: url('../fonts/AvenirLTPro-Black.eot');
+    src: url('../fonts/AvenirLTPro-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AvenirLTPro-Black.svg#AvenirLTPro-Black') format('svg'),
+         url('../fonts/AvenirLTPro-Black.ttf') format('truetype'),
+         url('../fonts/AvenirLTPro-Black.woff') format('woff'),
+         url('../fonts/AvenirLTPro-Black.woff2') format('woff2');
+    font-weight: 10px;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+         url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+         url('../fonts/Montserrat-Regular.woff') format('woff'),
+         url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'TeXGyreAdventor-Bold';
+    src: url('../fonts/TeXGyreAdventor-Bold.eot');
+    src: url('../fonts/TeXGyreAdventor-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TeXGyreAdventor-Bold.svg#TeXGyreAdventor-Bold') format('svg'),
+         url('../fonts/TeXGyreAdventor-Bold.ttf') format('truetype'),
+         url('../fonts/TeXGyreAdventor-Bold.woff') format('woff'),
+         url('../fonts/TeXGyreAdventor-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffa801;
+}
+
+.dots{
+    font-size: 20px;
+}
+
+.cart{
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+
+.navbar{
+    margin-left:200px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'AvenirLTPro-Black' ;
+    font-size: 13px;
+}
+
+.navbar, li{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding: 20px;
+}
+
+.nas{
+    width: 50px;
+}
+
+main{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-column-gap:2em ;
+    grid-row-gap:5em ;
+    grid-auto-rows: minmax(300px, auto);
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.logoimg{
+    width: 120px;
+    padding-bottom: 30px;
+}
+
+.lefthand{
+    text-align: center;
+    font-family: 'Montserrat-Regular' ;
+    padding-left: 200px;
+    font-size: 12px;
+    color: rgb(238, 229, 229);
+    width: 100%;
+    padding-top: 50px;
+}
+
+.lefthand p{
+    padding: 0px 80px;
+}
+
+h1{
+    white-space: nowrap;
+    font-family: 'Montserrat-Regular' ;
+}
+
+.hoodimg{
+    width:40%;
+    padding-right:px ;
+}
+
+.righthand{
+    display: flex;
+}
+
+.under{
+    padding-top: 30px;
+}
+
+.me{
+    background-color: #000000;
+    margin-right: 5px;
+}
+
+.me:hover{
+    background-color: transparent;
+}
+
+.congo{
+    font-size: 10px;
+    font-family:'Montserrat-Regular' ; ;
+    background-color: #0f0f0f;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+
+
+.details{
+    font-size: 10px;
+    font-family: 'Montserrat-Regular' ;
+    font-weight: normal;
+    padding: 12px;
+    border: 0.5px solid rgb(226, 214, 214);
+    border-radius: 50px;
+}
+
+.details:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+    transition: .5s ease-in-out;
+}
+
+.last{
+    color: white;
+    font-size: 120px;
+    font-family:'TeXGyreAdventor-Bold' ;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family:'Montserrat-Regular' ;
+    font-size: 10px;
+}
